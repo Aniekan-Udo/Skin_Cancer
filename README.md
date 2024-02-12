@@ -9,10 +9,8 @@ Skin cancer is one of the most prevalent types of cancer globally, and early det
 **Requirements**
 
 To run the code in this project, you need the following dependencies:
-
 Python 3.x
 TensorFlow 2.x
-
 Other necessary libraries, which can be installed via pip: pip install -r requirements.txt
 
 **Dataset**
@@ -22,7 +20,6 @@ The dataset used for training and testing the model consists of images of skin l
 **Training**
 
 To train the model:
-
 Prepare your dataset, ensuring proper labeling of images.
 Adjust hyperparameters as needed, such as learning rate, batch size, and number of epochs, in the configuration file.
 During training, the model parameters will be optimized using the Adam optimizer and the Sparse Categorical Crossentropy loss function.
@@ -30,7 +27,6 @@ During training, the model parameters will be optimized using the Adam optimizer
 **Evaluation**
 
 Once the model is trained, you can evaluate its performance:
-
 Load the trained model weights.
 Prepare a separate evaluation dataset, if not already split during training.
 The evaluation script will output various metrics such as accuracy, precision, recall, and F1-score to assess the model's performance.
@@ -38,7 +34,6 @@ The evaluation script will output various metrics such as accuracy, precision, r
 **Prediction**
 
 After training and evaluating the model, you can use it for predicting whether a skin lesion is malignant or benign:
-
 Load the trained model weights.
 Provide the image of the skin lesion you want to predict.
 The prediction script will output the model's prediction along with the confidence score.
